@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#43260f"/>
+    <stop offset="60%" stop-color="#2a180b"/>
+    <stop offset="100%" stop-color="#1d130c"/>
+  </linearGradient>
+  <radialGradient id="shine" cx="50%" cy="35%" r="50%">
+    <stop offset="0%" stop-color="#f2de96"/>
+    <stop offset="100%" stop-color="#b8872a"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<ellipse cx="600" cy="850" rx="260" ry="46" fill="#e3bb65" opacity="0.12"/>
+<g transform="translate(600 590)">
+  <circle r="260" fill="url(#shine)" stroke="#8d641e" stroke-width="12"/>
+  <circle r="212" fill="none" stroke="#8d641e" stroke-width="4" opacity="0.65"/>
+  <text x="0" y="-18" text-anchor="middle" font-family="Noto Serif, serif" font-size="165" fill="#8d641e">$</text>
+  <text x="0" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" letter-spacing="0.18em" fill="#8d641e" opacity="0.8">VALUE</text>
+</g>
+</svg>

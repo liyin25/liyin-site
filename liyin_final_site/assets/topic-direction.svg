@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+    <stop offset="0%" stop-color="#d7b56d"/>
+    <stop offset="100%" stop-color="#8f6630"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<g opacity="0.35" stroke="#271507" fill="none">
+  <circle cx="600" cy="600" r="430" stroke-width="4"/>
+  <circle cx="600" cy="600" r="330" stroke-width="3"/>
+  <circle cx="600" cy="600" r="235" stroke-width="2"/>
+  <line x1="600" y1="120" x2="600" y2="1080" stroke-width="3"/>
+  <line x1="120" y1="600" x2="1080" y2="600" stroke-width="3"/>
+  <line x1="250" y1="250" x2="950" y2="950" stroke-width="2"/>
+  <line x1="950" y1="250" x2="250" y2="950" stroke-width="2"/>
+</g>
+<g fill="#eee0b8" opacity="0.6" font-family="Noto Serif, serif" font-size="48" text-anchor="middle">
+  <text x="600" y="92">N</text><text x="600" y="1160">S</text><text x="64" y="616">W</text><text x="1136" y="616">E</text>
+</g>
+<g transform="translate(600 600)">
+  <circle r="30" fill="#b99344" stroke="#3f2710" stroke-width="5"/>
+  <polygon points="0,-330 32,0 0,80 -32,0" fill="#2d4d86"/>
+  <polygon points="0,330 32,0 0,-80 -32,0" fill="#4d2a17"/>
+</g>
+</svg>
